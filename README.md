@@ -1,2 +1,1 @@
-# akceak
-fisrt
+#yeni  denememdir. hata var , düzeltmek için  yardım edebilen olursa beklerim  ...
