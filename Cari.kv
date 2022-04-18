@@ -1,0 +1,45 @@
+<CariPenceresi>:
+BoxLayout:
+    orientation:"vertical"
+    BoxLayout:
+        orientation:"vertical"
+        Label:
+            id:pro_label
+            text: "AKCE_V1."
+        Label:
+            id:hg_label
+            text:"Hoş geldiniz"
+        BoxLayout:
+            Button:
+                text: "CARİ KART EKLE"
+
+        BoxLayout:
+            Label:
+                text:"ad giriniz"
+            TextInput:
+                id:ad_input
+        BoxLayout:
+            Label:
+                text:"soyad giriniz"
+            TextInput:
+                id:soyad_input
+
+
+        BoxLayout:
+            Button:
+                id:ekle_btn
+                text: "HAK"
+                on_press:app.hakekle()
+            Button:
+                text:"TABLO"
+                on_press:app.tablo()
+            Button:
+                text: "_EKLE"
+                on_press: app.veriekle()
+
+            Button:
+                text: "==>"
+                on_press:
+                    root.manager.transition.direction = 'left'
+                    # root.manager.transition.duration = 1
+                    root.manager.current = 'screen_two'
