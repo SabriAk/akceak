@@ -1,1 +1,3 @@
 #yeni  denememdir. hata var , düzeltmek için  yardım edebilen olursa beklerim  ...
+
+ekran değişikliği yaptığımda veritabanıına bilgi gitmiyor. 
